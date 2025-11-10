@@ -1,4 +1,4 @@
-package language.basics;
+package Assignment;
 
 public class OccupationDataType {
     public static void main(String[] args) {

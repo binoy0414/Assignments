@@ -1,4 +1,4 @@
-package Training;
+package Assignment;
 import java.io.PrintWriter;
 import java.util.logging.*;
 public class Hello {

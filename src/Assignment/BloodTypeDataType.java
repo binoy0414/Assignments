@@ -1,4 +1,4 @@
-package language.basics;
+package Assignment;
 
 public class BloodTypeDataType {
     public static void main(String[] args) {

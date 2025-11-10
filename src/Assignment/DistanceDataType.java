@@ -1,4 +1,4 @@
-package language.basics;
+package Assignment;
 
 public class DistanceDataType {
     public static void main(String[] args) {

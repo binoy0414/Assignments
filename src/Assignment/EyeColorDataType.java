@@ -1,4 +1,4 @@
-package language.basics;
+package Assignment;
 
 public class EyeColorDataType {
     public static void main(String[] args) {

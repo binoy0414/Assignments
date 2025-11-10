@@ -55,6 +55,8 @@ git commit -m "Commit from Eclipse terminal"
 ```sh
 git branch -M main
 ```
+git pull origin main --rebase
+git push -u origin main
 
 ---
 

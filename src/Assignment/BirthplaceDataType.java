@@ -1,4 +1,4 @@
-package language.basics;
+package Assignment;
 
 public class BirthplaceDataType {
     public static void main(String[] args) {

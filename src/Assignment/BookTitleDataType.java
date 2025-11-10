@@ -1,4 +1,4 @@
-package language.basics;
+package Assignment;
 
 public class BookTitleDataType {
     public static void main(String[] args) {
