@@ -1,0 +1,92 @@
+Got it. You want **Git Bash commands inside Eclipse terminal** to push your project to the **main** branch of your GitHub repo.
+
+Run these one-by-one in your Eclipse Git Bash terminal:
+
+---
+
+### **1. Go to your project folder**
+
+```sh
+cd C:/Users/binoy/eclipse-workspace/Assignments
+```
+
+---
+
+### **2. Initialize git (only first time)**
+
+```sh
+git init
+```
+
+---
+
+### **3. Add your GitHub repository**
+
+```sh
+git remote add origin https://github.com/binoy0414/Assignments.git
+```
+
+*If it says origin exists, run instead:*
+
+```sh
+git remote set-url origin https://github.com/binoy0414/Assignments.git
+```
+
+---
+
+### **4. Add all files**
+
+```sh
+git add .
+```
+
+---
+
+### **5. Commit your code**
+
+```sh
+git commit -m "Commit from Eclipse terminal"
+```
+
+---
+
+### **6. Set branch to main**
+
+```sh
+git branch -M main
+```
+
+---
+
+### **7. Push to GitHub**
+
+```sh
+git push -u origin main
+```
+
+---
+
+### 🔐 If Git asks for login:
+
+* **Username** → `binoy0414`
+* **Password** → Use your **GitHub Personal Access Token**, *not your GitHub password*
+
+---
+
+### ✅ Next time you only need:
+
+```sh
+git add .
+git commit -m "update"
+git push
+```
+
+---
+
+If you want, I can also give:
+
+* `.gitignore` for Eclipse/Java
+* Auto-push command alias
+* Branch workflow guidance
+
+Just tell me.
